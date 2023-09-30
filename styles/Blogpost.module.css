@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem;
+    padding-top: 6rem;
+    min-height: 100vh;
+    line-height: 2em;
+    text-align: justify;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+  }
+
+  .container{
+    padding: 0 15rem;
+  }
+
+  @media only screen and (max-width:600px){
+    .container{
+      padding: 0;
+    }
+    .main{
+      padding: 10vh 10vw;
+    }
+  }

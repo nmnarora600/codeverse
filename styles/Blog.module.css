@@ -1,0 +1,67 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem;
+    min-height: 100vh;
+    line-height: 2em;
+    text-align: justify;
+   
+  }
+
+  .container{
+    padding: 0 2rem;
+    /* padding-top: 40px; */
+   
+   text-align: center;
+  }
+  .padclass{
+    padding-top: 40px;
+  }
+  .blogs{
+    text-align: justify;
+    margin: 0;
+    max-width: 45vw;
+    display: inline;
+ 
+  
+  }
+  .blogs h2{
+    padding: 10px 79px;
+   text-align: center;
+   text-decoration: underline;
+  }
+  .myImg{
+    border-radius:10px;
+    margin: 30px 0;
+  }
+  .blogItem{
+    /* padding: 10px 199px; */
+    /* width: 60vw; */
+    text-align: justify;
+  }
+
+  .blogItem a h3{
+    margin: 15px 0;
+  }
+
+  .btn{
+    color: white;
+    background-color: black;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    margin: 10px 0;
+    }
+
+    @media only screen and (max-width:600px){
+      .blogs, .blogItem{
+        max-width: 80vw;
+        padding: 0;
+        padding-top: 20px;
+      }
+      .main{
+        padding: 0;
+      }
+    }
