@@ -28,15 +28,15 @@ Follow these instructions to get the project up and running on your local machin
 git clone https://github.com/nmnarora600/codeverse.git
 ```
 
-3. Navigate to project folder:
+2. Navigate to project folder:
 ```bash
 cd codeverse
 ```
-
-3.Install project dependencies:
+3. Install project dependencies:
 ```bash
 yarn install
 ```
+
 
 ### Usage
 To run the app locally, use the following command:
